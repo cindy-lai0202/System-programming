@@ -19,4 +19,5 @@ Write a program like cp that, when used to copy a regular file that contains hol
 (sequences of null bytes), also creates corresponding holes in the target file.
   
   $ ./HW1_2 <file> <file2>
+  
 ![image](https://user-images.githubusercontent.com/72913466/209774792-0f71f887-cf48-4eb7-b4f5-eec99eb89911.png)
