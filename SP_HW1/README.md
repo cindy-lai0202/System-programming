@@ -10,6 +10,7 @@ description of the getopt() function, which can be used to parse command-line
 options.)
 
 $ ./HW1_1 -a <file>
+![image](https://user-images.githubusercontent.com/72913466/209774603-0d93829c-76d1-4d9f-9bf2-47aa5b048764.png)
 
 
 HW1-2 from the exercise 4-2
