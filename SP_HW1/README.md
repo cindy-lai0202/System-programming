@@ -9,7 +9,7 @@ to append text to the end of a file if it already exists. (Refer to Appendix B f
 description of the getopt() function, which can be used to parse command-line
 options.)
 
-$ ./HW1_1 -a <file>
+$ ./HW1_1 -a filename
 ![image](https://user-images.githubusercontent.com/72913466/209774603-0d93829c-76d1-4d9f-9bf2-47aa5b048764.png)
 
 
@@ -18,6 +18,6 @@ HW1-2 from the exercise 4-2
 Write a program like cp that, when used to copy a regular file that contains holes
 (sequences of null bytes), also creates corresponding holes in the target file.
   
-  $ ./HW1_2 <file> <file2>
+  $ ./HW1_2 filename filename2
   
 ![image](https://user-images.githubusercontent.com/72913466/209774792-0f71f887-cf48-4eb7-b4f5-eec99eb89911.png)
