@@ -1,0 +1,10 @@
+#include <unistd.h>
+#include <stdio.h>
+int main()
+{
+	char path[100];
+	getcwd(path,sizeof(path));
+	printf("%s\n",path);
+	
+	return 0;
+}
