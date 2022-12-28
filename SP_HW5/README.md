@@ -34,3 +34,12 @@ and compile then into your shell. The builtin command lists the functions built 
 
 ![image](https://user-images.githubusercontent.com/72913466/209783079-fe00dd43-d128-42d8-bde3-b55e9aa94537.png)
 
+part3
+
+1.The first look up project lab familiarizes you with the format of the dictionary by completing the convert.c program that creates the dictionary of fixed-length records (fixrec) from a file of variable-length entries (dict). Add code to convert.c to change an editable file into a fixed-length record format.
+
+![image](https://user-images.githubusercontent.com/72913466/209783289-6cb80a8f-8404-4dd8-aadb-a713042318f6.png)
+
+2.Add code to the lookup1.c file to do a simple linear search through a file of fixed length records. Link with main.c, the user interface module.
+
+![image](https://user-images.githubusercontent.com/72913466/209783452-2978be93-c76f-473e-b34a-778253e1763e.png)
