@@ -10,6 +10,9 @@ correctly handles the possibility that a /proc/PID directory disappears between 
 time that the program determines that the directory exists and the time that it tries
 to open the corresponding /proc/PID/status file.
 
+$ ./HW4_1 usrname
+
+![image](https://user-images.githubusercontent.com/72913466/209777992-535f10af-e030-4e78-a575-ac5dedfec413.png)
 
 
 HW4-2 from the exercise 12-2
@@ -23,6 +26,9 @@ system can be found by inspecting the PPid: line of all of the /proc/PID/status 
 on the system. Be careful to handle the possibility that a process’s parent (and thus
 its /proc/PID directory) disappears during the scan of all /proc/PID directories.
 
+$ ./HW4_2 usrname
+
+![image](https://user-images.githubusercontent.com/72913466/209778199-b65ea3de-f3de-44da-9872-fa71ed2d7d84.png)
 
 
 HW4-3 from the exercise 12-3
@@ -33,3 +39,8 @@ links. This will require nested loops employing readdir(3) to scan all /proc/PID
 directories, and then the contents of all /proc/PID/fd entries within each /proc/PID
 directory. To read the contents of a /proc/PID/fd/n symbolic link requires the use
 of readlink(), described in Section 18.5.
+
+$ ./HW4_3 pathname
+
+![image](https://user-images.githubusercontent.com/72913466/209778394-6b06e15a-054a-43b7-8d70-05a9a758ba05.png)
+
