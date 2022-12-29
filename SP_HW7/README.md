@@ -10,7 +10,12 @@ argument to the program.) Create a modified version of the program that instead
 uses sigwaitinfo(), and time that version. What is the speed difference between the
 two programs?
 
+![image](https://user-images.githubusercontent.com/72913466/209906175-9ab517c7-258d-4769-bd99-fea327b481f4.png)
 
 
 HW7-2 from the exercise 22-4
 
+Implement the System V functions sigset(), sighold(), sigrelse(), sigignore(), and
+sigpause() using the POSIX signal API.
+
+![image](https://user-images.githubusercontent.com/72913466/209906416-b444a32d-0f4f-40ad-9ddf-ed133726e294.png)
